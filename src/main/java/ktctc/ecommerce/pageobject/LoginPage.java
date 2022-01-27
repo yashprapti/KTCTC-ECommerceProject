@@ -31,20 +31,20 @@ public class LoginPage extends BaseClass {
 	WebElement Logo;
 	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver.get(), this);
 	}
 	
 	public IndexPage loginToIndexPage(String mobno,String pwd) {
-		action.implicitWait(driver, 10);
+		action.implicitWait(driver.get(), 10);
 		action.type(enterMobile, mobno);
 		action.type(enterPwd, pwd);
-		action.click(driver, loginBtn);
+		action.click(driver.get(), loginBtn);
 		return new IndexPage();
 	}
 	
 	public boolean verifyLogo() {
-		action.implicitWait(driver, 10);
-		return action.isDisplayed(driver, Logo);
+		action.implicitWait(driver.get(), 10);
+		return action.isDisplayed(driver.get(), Logo);
 	}
 
 }

@@ -21,11 +21,11 @@ public class ProfilePage extends BaseClass {
 	WebElement successmsg;
 	
 	public ProfilePage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver.get(), this);
 	}
 	
 	public String verifyPlacedOrder() {
-		action.fluentWait(driver, successmsg, 20);
+		action.fluentWait(driver.get(), successmsg, 20);
 		String acmsg = successmsg.getText();
 		return acmsg;
 	}

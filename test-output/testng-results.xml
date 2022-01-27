@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-25T12:21:09 IST" name="Default suite" finished-at="2022-01-25T12:21:40 IST" duration-ms="31230">
+  <suite started-at="2022-01-27T16:36:27 IST" name="Default suite" finished-at="2022-01-27T16:36:55 IST" duration-ms="28108">
     <groups>
     </groups>
-    <test started-at="2022-01-25T12:21:09 IST" name="Default test" finished-at="2022-01-25T12:21:40 IST" duration-ms="31230">
+    <test started-at="2022-01-27T16:36:27 IST" name="Default test" finished-at="2022-01-27T16:36:55 IST" duration-ms="28108">
       <class name="ktctc.ecommerce1.ViewBasketPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@e1de817]" started-at="2022-01-25T12:21:09 IST" name="loadConfig" finished-at="2022-01-25T12:21:09 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@52102734]" started-at="2022-01-27T16:36:27 IST" name="loadConfig" finished-at="2022-01-27T16:36:27 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@e1de817]" started-at="2022-01-25T12:21:09 IST" name="setup" finished-at="2022-01-25T12:21:19 IST" duration-ms="10720" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@52102734]" started-at="2022-01-27T16:36:27 IST" name="setup" finished-at="2022-01-27T16:36:36 IST" duration-ms="8625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validatePlaceOrderTest()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@e1de817]" started-at="2022-01-25T12:21:19 IST" name="validatePlaceOrderTest" finished-at="2022-01-25T12:21:39 IST" duration-ms="19972" status="PASS">
+        <test-method signature="validatePlaceOrderTest()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@52102734]" started-at="2022-01-27T16:36:36 IST" name="validatePlaceOrderTest" finished-at="2022-01-27T16:36:55 IST" duration-ms="19064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePlaceOrderTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@e1de817]" started-at="2022-01-25T12:21:39 IST" name="tearDown" finished-at="2022-01-25T12:21:40 IST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ktctc.ecommerce1.ViewBasketPageTest@52102734]" started-at="2022-01-27T16:36:55 IST" name="tearDown" finished-at="2022-01-27T16:36:55 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

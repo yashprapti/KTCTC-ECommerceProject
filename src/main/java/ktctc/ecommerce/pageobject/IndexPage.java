@@ -28,18 +28,18 @@ public class IndexPage extends BaseClass {
 	WebElement searchBtn;
 	
 	public IndexPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver.get(), this);
 	}
 	
 	public boolean verifyIndexPage() {
-		action.implicitWait(driver, 20);
-		return action.isDisplayed(driver, Home);
+		action.implicitWait(driver.get(), 20);
+		return action.isDisplayed(driver.get(), Home);
 	}
 	
 	public SerchPage searchForProduct(String productname) {
-		action.implicitWait(driver, 10);
+		action.implicitWait(driver.get(), 10);
 		action.type(searchproductbox, productname);
-		action.click(driver, searchBtn);
+		action.click(driver.get(), searchBtn);
 		return new SerchPage();
 	}
 

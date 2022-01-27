@@ -34,21 +34,21 @@ public class ViewBasketPage extends BaseClass {
 	WebElement placeOrderBtn;
 	
 	public ViewBasketPage(){
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver.get(), this);
 	}
 	
 	public String verifyProductAddedInBasket() {
-		action.implicitWait(driver, 10);
+		action.implicitWait(driver.get(), 10);
 		String price = productname.getText();
 		return price;
 	}
 	
 	public ProfilePage verifyplaceOrder(String address) {
-		action.implicitWait(driver, 10);
+		action.implicitWait(driver.get(), 10);
 		action.type(addressarea, address);
-		action.click(driver, codradioBtn);
-		action.click(driver, termscheckbox);
-		action.click(driver, placeOrderBtn);
+		action.click(driver.get(), codradioBtn);
+		action.click(driver.get(), termscheckbox);
+		action.click(driver.get(), placeOrderBtn);
 		return new ProfilePage();
 	}
 

@@ -28,19 +28,19 @@ public class AddToCartPage extends BaseClass{
 	WebElement ViewBasketBtn;
 	
 	public AddToCartPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver.get(), this);
 	}
 	
 	public String validateProductSearch() {
-		action.implicitWait(driver, 10);
+		action.implicitWait(driver.get(), 10);
 		String acproduct = valtext.getText();
 		return acproduct;
 	}
 	
 	public ViewBasketPage clickOnAddToCartBtn() {
-		action.implicitWait(driver, 10);
-		action.click(driver, AddToCartBtn);
-		action.click(driver, ViewBasketBtn);
+		action.implicitWait(driver.get(), 10);
+		action.click(driver.get(), AddToCartBtn);
+		action.click(driver.get(), ViewBasketBtn);
 		return new ViewBasketPage();
 	}
 

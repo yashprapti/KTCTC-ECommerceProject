@@ -1,0 +1,43 @@
+2022-01-27 16:30:26 INFO  Log:11 - =====================================loginToIndexPageTest TEST START=========================================
+2022-01-27 16:30:26 INFO  Log:22 - User is Trying to enter username and password
+2022-01-27 16:30:57 INFO  Log:11 - =====================================validateLogoTest TEST START=========================================
+2022-01-27 16:32:34 INFO  Log:11 - =====================================loginToIndexPageTest TEST START=========================================
+2022-01-27 16:32:34 INFO  Log:22 - User is Trying to enter username and password
+2022-01-27 16:32:45 INFO  Log:22 - User Enetered username and password Successfully
+2022-01-27 16:32:45 INFO  Log:22 - User Logged In Successfully
+2022-01-27 16:32:45 INFO  Log:15 - =====================================loginToIndexPageTest TEST END=========================================
+2022-01-27 16:32:51 INFO  Log:11 - =====================================validateLogoTest TEST START=========================================
+2022-01-27 16:32:51 INFO  Log:22 - Logo Validation Successful
+2022-01-27 16:32:51 INFO  Log:15 - =====================================validateLogoTest TEST END=========================================
+2022-01-27 16:34:01 INFO  Log:11 - =====================================validateSearchProduct TEST START=========================================
+2022-01-27 16:34:01 INFO  Log:22 - User is Trying to enter username and password
+2022-01-27 16:34:09 INFO  Log:22 - User Enetered username and password Successfully
+2022-01-27 16:34:10 INFO  Log:22 - User Is Validating Product Search
+2022-01-27 16:34:10 INFO  Log:22 - Product Search Validation Successfull
+2022-01-27 16:34:10 INFO  Log:15 - =====================================validateSearchProduct TEST END=========================================
+2022-01-27 16:35:00 INFO  Log:11 - =====================================validateProductSearchTest TEST START=========================================
+2022-01-27 16:35:00 INFO  Log:22 - User is Trying to enter username and password
+2022-01-27 16:35:10 INFO  Log:22 - User Enetered username and password Successfully
+2022-01-27 16:35:12 INFO  Log:22 - User Entered productname Succeffuly
+2022-01-27 16:35:13 INFO  Log:22 - User Is On Add To Cart Page
+2022-01-27 16:35:13 INFO  Log:22 - Validating Product Search
+2022-01-27 16:35:13 INFO  Log:22 - Product Search Validation Successfull
+2022-01-27 16:35:13 INFO  Log:15 - =====================================validateProductSearchTest TEST END=========================================
+2022-01-27 16:35:55 INFO  Log:11 - =====================================validateProductAddedInBaskettest TEST START=========================================
+2022-01-27 16:35:55 INFO  Log:22 - User is Trying to enter username and password
+2022-01-27 16:36:01 INFO  Log:22 - User Enetered username and password Successfully
+2022-01-27 16:36:03 INFO  Log:22 - User Entered productname Succeffuly
+2022-01-27 16:36:05 INFO  Log:22 - User Is On Add To Cart Page
+2022-01-27 16:36:06 INFO  Log:22 - User Is On View Basket Page
+2022-01-27 16:36:06 INFO  Log:22 - User Is Verifying for Product Added In Basket Or Not
+2022-01-27 16:36:06 INFO  Log:22 - Product Added In Bassket Validation Successfull
+2022-01-27 16:36:06 INFO  Log:15 - =====================================validateProductAddedInBaskettest TEST END=========================================
+2022-01-27 16:36:36 INFO  Log:11 - =====================================validatePlaceOrderTest TEST START=========================================
+2022-01-27 16:36:36 INFO  Log:22 - User is Trying to enter username and password
+2022-01-27 16:36:48 INFO  Log:22 - User Enetered username and password Successfully
+2022-01-27 16:36:49 INFO  Log:22 - User Entered productname Succeffuly
+2022-01-27 16:36:50 INFO  Log:22 - User Is On Add To Cart Page
+2022-01-27 16:36:52 INFO  Log:22 - User Is On View Basket Page
+2022-01-27 16:36:55 INFO  Log:22 - User Verifying Placed Order
+2022-01-27 16:36:55 INFO  Log:22 - Place Order Validation Successfull
+2022-01-27 16:36:55 INFO  Log:15 - =====================================validatePlaceOrderTest TEST END=========================================

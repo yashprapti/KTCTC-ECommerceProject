@@ -25,17 +25,17 @@ public class SerchPage extends BaseClass {
 	 
 	 
 	 public SerchPage() {
-		 PageFactory.initElements(driver, this);
+		 PageFactory.initElements(driver.get(), this);
 	 }
 	 
 	 public boolean verifySearchResult() {
-		 action.implicitWait(driver, 10);
-		return action.isDisplayed(driver, searchresult);
+		 action.implicitWait(driver.get(), 10);
+		return action.isDisplayed(driver.get(), searchresult);
 	 }
 	 
 	 public AddToCartPage clickOnAddToBasketBtn() {
-		 action.implicitWait(driver, 10);
-		 action.JSClick(driver, addToBaskrtBtn);
+		 action.implicitWait(driver.get(), 10);
+		 action.JSClick(driver.get(), addToBaskrtBtn);
 		 return new AddToCartPage();
 	 }
 
